@@ -1,0 +1,167 @@
+@import url('href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap"');
+@import url('fonts/font-awesome.min.css');
+
+/*--- General ---*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #292B2C;
+}
+
+.navbar-light {
+    background-color: transparent!important;
+    z-index: 100; 
+}
+
+.navbar-light .navbar-brand {
+    padding: 0!important;
+    font-size: 1.6rem!important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+a {
+    color: #03a87c;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #018f69;
+}
+
+.btn-call-to-action {
+    line-height: 37px;
+    border: 1px solid #03a87c;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #03a87c!important;
+    text-decoration: none!important;
+}
+
+#btn-post-job { 
+    padding: 0 16px;  
+}
+
+#btn-post-job:hover,
+#btn-post-job:active,
+#btn-post-job:focus {
+    color: #018f69;
+    border-color: #018f69;
+}
+
+.pb-6 {
+    padding-bottom: 4rem;
+}
+
+/*--- Welcome section ---*/
+
+.welcome-section {
+    margin-bottom: 0;
+    background: #fff;
+    border-radius: 0;
+}
+
+.title-welcome{   
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+#btn-post-job-mobile {
+    display: block;
+    text-align: center;
+}
+
+/*--- Jobs section ---*/
+
+.job-listing {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.job-listing:last-child { 
+    border-bottom: 0;
+}
+
+.post-title a {
+    font-size: 1.5rem;
+    color: #292B2C;
+}
+
+.post-subtitle {
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.post-subtitle a {
+    color: rgba(0,0,0,.54);
+}
+
+.post-meta {
+    color: #b3b3b1;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+.mobile-call-to-action {
+    background-color: #fff;
+    border-top:  solid 1px #d2dde6;
+    padding: 1rem;
+}
+
+/*--- Footer section ---*/
+
+#section-footer {
+    border-top: 1px solid #EEEEEE;
+    font-size: 0.9rem;
+}
+
+.footer-copyrights {
+    text-align: left;
+}
+
+.footer-author {
+    text-align: right;
+}
+
+.fa-heart {
+    color: #ff0288;
+}
+
+
+@media (min-width: 544px) {
+
+  
+
+}
+
+@media (max-width: 768px) {
+
+    .footer-copyrights {
+        text-align: center;
+    }
+
+    .footer-author {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+   
+
+}
+
+@media (min-width: 1200px) {
+
+  
+
+}
+

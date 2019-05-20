@@ -1,0 +1,130 @@
+/* General Startup Job Page */
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #00AEE7!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #00AEE7!important;
+}
+
+#text {
+    display: none;
+}
+
+/* Startup Job Hero Section */
+
+.starup-job-header {
+    background-color: #F6F6F6;
+}
+
+.job-section-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-title {
+    margin-top: 80px;
+    color: #333332;
+    font-size: 3rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.lead a {
+    border-bottom: 1px dotted #ddd;
+    color: #444445;
+    text-decoration: none;   
+}
+
+.lead a:hover,
+.lead a:active,
+.lead a:visited,
+.lead a:focus {
+    border-bottom: 1px solid #ddd;
+}
+
+.startup-job-icons-section,
+.startup-icons-section {
+    margin-bottom: 1rem;
+    line-height: 1.23;
+    color: #999999;
+    text-align: center!important;
+    list-style: none;
+    padding-left: 0;
+}
+
+.startup-job-icon,
+.startup-icon {
+    display: inline-block;
+}
+
+.startup-job-icons-section li,
+.startup-icon {
+    padding: .2rem 1rem;
+}
+
+.startup-job-icons-section li+li {
+    border-left: 1px solid #b3b3b1;
+}
+
+/* Startup Job Wrapper */
+
+.startup-job-wrapper {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+/* Case Study Specific Info Right */
+
+.startup-icons-section {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-align: left!important;
+}
+
+.startup-icon {
+    font-size: 1.3rem;
+}
+
+.startup-icon a {
+    color: #999999;
+}
+
+.startup-icon a:hover,
+.startup-icon a:active,
+.startup-icon a:visited,
+.startup-icon a:focus {
+    color: #333333;
+}
+
+.btn-apply {
+    background-color: #00AEE7;
+    color: #fff;
+    border-color: #00AEE7;
+    cursor: pointer;
+}
+
+
+.btn-apply:hover,
+.btn-apply:active,
+.btn-apply:visited,
+.btn-apply:focus {
+    background-color: #26C6FC;
+    color: #fff;
+    border-color: #26C6FC;
+}
+
+
+/* Case Study Description */
+
+.startup-job-description-title,
+.startup-about-title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #292B2C;
+}
+
