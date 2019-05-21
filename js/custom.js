@@ -14,7 +14,7 @@ $(document).ready(function(){
 $('.btn-copy-url').on('click', function() {
 	
     var text = $(this).parent().find('.input-copy-url');
-    var alert = $(this).parent().find('.copied-alert-message');
+    var alert = $('#copied-alert-message');
     // Select the text
   	text.select(); 
 
@@ -26,10 +26,12 @@ $('.btn-copy-url').on('click', function() {
 
   	// Show message
   	alert.removeClass('d-none');
+  	$('#share-link-text').addClass('d-none');
   
   	// Hide message after 2 seconds
   	setTimeout(function () {
     	alert.addClass('d-none');
+    	$('#share-link-text').removeClass('d-none');
   	}, 2000);
 
 });
