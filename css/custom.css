@@ -132,6 +132,12 @@ a:focus {
     padding: 1rem;
 }
 
+.input-copy-url {
+    position: absolute; 
+    left: -1000px; 
+    top: -1000px;
+}
+
 /*--- Footer section ---*/
 
 #section-footer {
@@ -145,10 +151,6 @@ a:focus {
 
 .footer-author {
     text-align: right;
-}
-
-.fa-heart {
-    color: #ff0288;
 }
 
 

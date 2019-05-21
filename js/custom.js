@@ -9,3 +9,27 @@ $(document).ready(function(){
 		$('#items').html(template(data))
 	})
 })
+
+/*-- Copy link btn --*/
+$('.btn-copy-url').on('click', function() {
+	
+    var text = $(this).parent().find('.input-copy-url');
+    var alert = $(this).parent().find('.copied-alert-message');
+    // Select the text
+  	text.select(); 
+
+  	// Copy it
+  	document.execCommand('copy');
+
+  	// Remove focus from the input
+  	text.blur();
+
+  	// Show message
+  	alert.removeClass('d-none');
+  
+  	// Hide message after 2 seconds
+  	setTimeout(function () {
+    	alert.addClass('d-none');
+  	}, 2000);
+
+});
