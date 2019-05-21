@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang="el">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,7 @@
         <div class="container">
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link mr-3" href="faq.html">FAQ</a>
+                    <a class="nav-item nav-link mr-3 pt-3" href="faq.html">FAQ</a>
                     <a class="nav-item nav-link btn-call-to-action" id="btn-post-job" href="https://docs.google.com/forms/d/e/1FAIpQLSdgBXJbs6DUV8JFMBTkm9PM9SB-BSJ5-oBz8Ad_bz-bz2lLIg/viewform" target="_blank">Post a job</a>
                 </div>
             </div>
@@ -45,12 +45,12 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="jumbotron welcome-section  mt-5 mt-md-0">
+    <header class="jumbotron welcome-section mt-5 mt-md-0 pb-4">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8 welcome-section-title mb-4">
-                    <h1 class="title-welcome mt-4 mb-3">Just another job board</h1>
-                    <p class="mb-4">My network includes people from tech, business, and people who are involved or want to get involved in startups. Learn more in the <a href="faq.html">FAQ page</a>. If you want to publish a job it's free and it works as first in first served policy.</p>
+                    <h1 class="title-welcome bold-weight mt-4 mb-3">Just another job board</h1>
+                    <p class="mb-4">Are you looking for co-founders, employees or students looking for a Ph.D. position? My network includes people from tech, business, and people who are involved or want to get involved in startups. Learn more in the <a href="faq.html">FAQ page</a>. If you want to publish a job position it's free and it works as first in first served policy.</p>
                     <!-- Mobile version post a job button -->
                     <div class="w-100 fixed-bottom d-md-none">
                         <div class="row mobile-call-to-action">
@@ -71,11 +71,40 @@
     <!-- Jobs openings -->
     <section class="section-open-positions">
         <div class="container">
+
             <div class="row">
-                <div class="col-12 col-md-8 mx-auto pb-5">
-                    <div id="items">Loading job positions...</div> 
+
+                <div class="col-12 col-md-7 pb-0 pb-md-5 pl-xl-0">
+                    <div class="col-12 pl-0 mb-0" id="items">
+                        <p class="pl-3">Loading job positions...</p>
+                    </div>
                 </div>
-            </div>         
+
+                <!-- Social share buttons -->
+                <div class="col-12 col-md-5 col-lg-4 col-xl-3 offset-xl-1 mb-5">
+                    <div class="col-12 p-4">
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <h5 class="light-weight mb-0">Do you know anyone who is a great fit for the open positions</h5>
+                            </div>
+                            <div class="col-12 mb-0">
+                                <ul class="p-0 m-0">
+                                    <li class="d-inline list-unstyled">
+                                        <a class="btn btn-block mb-2" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://dimemp.github.io/job-board/&title=Just%20another%20job%20board&summary=Do%20you%20know%20anyone%20who%20is%20a%20great%20fit%20for%20the%20open%20job%20positions?"><img class="mr-2 btn-social-media-img" src="content/img/twitter.svg" width="20px" height="20px" alt="twitter-logo">Share LinkedIn
+                                        </a> 
+                                    </li>
+                                    <li class="d-inline list-unstyled">
+                                        <a class="btn btn-block" target="_blank" href="https://www.facebook.com/dialog/send?app_id=1331372956995305&link=https://dimemp.github.io/job-board/redirect_uri=https://dimemp.github.io/job-board/" role="button"><img class="mr-2 btn-social-media-img" src="content/img/facebook-logo-outline.svg" width="20px" height="20px" alt="facebook-logo">Share messenger
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                                   
+                    </div>        
+                </div>
+
+            </div>
+
         </div>
     </section>
 
@@ -84,7 +113,7 @@
     <footer class="container pt-4 pb-md-4 pb-6" id="section-footer" role="contentinfo">
         <div class="row">
             <div class="col-12 col-md-6 footer-copyrights">
-                <p>2019-2022 All rights reserved ©</p>
+                <p class="mb-2">2019-2022 All rights reserved ©</p>
             </div>
             <div class="col-12 col-md-6 footer-author">
                 <p>Crafted with <i class="fa fa-heart" aria-hidden="true"></i> from <a target="_blank" href="https://twitter.com/dimidimos" > Dimitris Dimosiaris</a></p>
@@ -102,7 +131,7 @@
                 <li class="job-listing">
                     <div class="col-12">
                         <h3 class="post-title">
-                            <a class="bold" href="{{jobPostLinkWithMoreInformation}}" target="_blank">{{jobTitle}} | {{positionType}}</a>
+                            <a class="bold-weight" href="{{jobPostLinkWithMoreInformation}}" target="_blank">{{jobTitle}} | {{positionType}}</a>
                         </h3>
                         <h6 class="post-subtitle"><a href="{{yourCompanyOrOrganizationWebsite}}" target="_blank">{{yourCompanyOrOrganizationName}} - {{cityOrRemote}}</a></h6>
                         <h6 class="post-meta">{{Χρονικήσήμανση}}</h6>

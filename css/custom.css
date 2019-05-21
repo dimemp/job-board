@@ -19,7 +19,15 @@ body {
     font-size: 1.6rem!important;
 }
 
-.bold {
+.navbar-light .navbar-nav .nav-link {
+    color: #b3b3b1;
+}
+
+.light-weight {
+    font-weight: 300;
+}
+
+.bold-weight {
     font-weight: 700;
 }
 
@@ -33,17 +41,23 @@ a:focus {
     color: #018f69;
 }
 
+.btn,
 .btn-call-to-action {
-    line-height: 37px;
-    border: 1px solid #03a87c;
+    padding: .3rem 1rem;
+    background: #f8f9fa!important;
+    border: none!important;
     -webkit-border-radius: 4px;
     border-radius: 4px;
+    line-height: 37px;
     color: #03a87c!important;
     text-decoration: none!important;
+    font-weight: 300;
+    cursor: pointer;
+    box-shadow: none!important;
 }
 
 #btn-post-job { 
-    padding: 0 16px;  
+    padding: 8px 16px; 
 }
 
 #btn-post-job:hover,
@@ -67,13 +81,16 @@ a:focus {
 
 .title-welcome{   
     font-size: 3.5rem;
-    font-weight: 500;
     line-height: 1.1;
 }
 
 #btn-post-job-mobile {
     display: block;
     text-align: center;
+}
+
+.btn-social-media-img {
+    margin-top: -0.3rem;
 }
 
 /*--- Jobs section ---*/
@@ -111,7 +128,7 @@ a:focus {
 
 .mobile-call-to-action {
     background-color: #fff;
-    border-top:  solid 1px #d2dde6;
+    border-top: 1px solid #EEEEEE;
     padding: 1rem;
 }
 
