@@ -82,6 +82,7 @@ a:focus {
 .title-welcome{   
     font-size: 3.5rem;
     line-height: 1.1;
+    font-weight: 900;
 }
 
 #btn-post-job-mobile {
