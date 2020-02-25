@@ -3,17 +3,30 @@
  * Custom js to retrieve data from Google form
  * 
 */
+
+// Take website's url
+websiteUrl = window.location;
+
 $(document).ready(function(){
-	$.getJSON('https://api.sheety.co/8184d022-3142-4a11-910d-7d301afd7bc8', function(data) {
-		var template = Handlebars.compile($('#item-template').html())
-		$('#items').html(template(data))
-	})
+
+    emptyLinks = document.getElementsByClassName('link-job-position');
+
+    Array.from(emptyLinks).forEach((link) => {
+
+        if ($(this).attr('href') == websiteUrl || $(this).attr('href') == "") 
+            $(this).removeAttr("href"),
+            $(this).removeAttr("target");
+
+    }); 
+
 })
+
 
 /*-- Copy link btn --*/
 $('.btn-copy-url').on('click', function() {
 	
     var text = $(this).parent().find('.input-copy-url');
+    text.val(websiteUrl);
     var alert = $('#copied-alert-message');
     // Select the text
   	text.select(); 

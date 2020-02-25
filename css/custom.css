@@ -1,5 +1,5 @@
-@import url('href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap"');
-@import url('fonts/font-awesome.min.css');
+
+
 
 /*--- General ---*/
 
@@ -80,7 +80,6 @@ a:focus {
 }
 
 .title-welcome{   
-    font-size: 3.5rem;
     line-height: 1.1;
     font-weight: 900;
 }
@@ -107,7 +106,7 @@ a:focus {
 }
 
 .post-title a {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #292B2C;
 }
 
@@ -139,29 +138,12 @@ a:focus {
     top: -1000px;
 }
 
+.empty-link {
+
+}
+
 /*--- Footer section ---*/
 
 #section-footer {
-    border-top: 1px solid #EEEEEE;
     font-size: 0.9rem;
-}
-
-.footer-copyrights {
-    text-align: left;
-}
-
-.footer-author {
-    text-align: right;
-}
-
-@media (max-width: 768px) {
-
-    .footer-copyrights {
-        text-align: center;
-    }
-
-    .footer-author {
-        text-align: center;
-    }
-
 }
