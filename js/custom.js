@@ -1,26 +1,10 @@
-/*!
- * 
- * Custom js to retrieve data from Google form
- * 
-*/
-
 // Take website's url
 websiteUrl = window.location;
 
-$(document).ready(function(){
+// Create linkedin's button link
+linkedinUrl = 'https://www.linkedin.com/shareArticle?mini=true&url='+websiteUrl+'';
 
-    emptyLinks = document.getElementsByClassName('link-job-position');
-
-    Array.from(emptyLinks).forEach((link) => {
-
-        if ($(this).attr('href') == websiteUrl || $(this).attr('href') == "") 
-            $(this).removeAttr("href"),
-            $(this).removeAttr("target");
-
-    }); 
-
-})
-
+document.getElementById("linkedin-btn").setAttribute("href", linkedinUrl);
 
 /*-- Copy link btn --*/
 $('.btn-copy-url').on('click', function() {
