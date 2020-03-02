@@ -1,11 +1,6 @@
 // Take website's url
 websiteUrl = window.location;
 
-// Create linkedin's button link
-linkedinUrl = 'https://www.linkedin.com/shareArticle?mini=true&url='+websiteUrl+'';
-
-document.getElementById("linkedin-btn").setAttribute("href", linkedinUrl);
-
 /*-- Copy link btn --*/
 $('.btn-copy-url').on('click', function() {
 	
